@@ -1,0 +1,20 @@
+.input-group {
+    margin: 0 auto 20px auto;
+  }
+  
+  #form-control {
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  #button-addon2 {
+    margin-left: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  #button-addon2:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
