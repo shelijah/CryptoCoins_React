@@ -5,7 +5,7 @@ import './searchitem.css'
 
 export default function SearchItem({ setSearchTerm }) {
     const handleInputChange = (event) => {
-        setSearchTerm(event.target.value); // Aktualizacja stanu w komponencie nadrzędnym
+        setSearchTerm(event.target.value);
     };
 
     return (
@@ -15,7 +15,7 @@ export default function SearchItem({ setSearchTerm }) {
                 placeholder="Search any Coins"
                 aria-label="Search any Coins"
                 aria-describedby="basic-addon2"
-                onChange={handleInputChange} // Wywołanie funkcji podczas wpisywania tekstu
+                onChange={handleInputChange}
             />
             <Button variant="outline-secondary" id="button-addon2">
                 Search

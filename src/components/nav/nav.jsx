@@ -11,7 +11,7 @@ export default function Navigation({ activePage, setActivePage }) {
         <Navbar.Brand
           className={activePage === "home" ? "active" : ""}
           onClick={() => setActivePage("home")}
-          style={{ cursor: "pointer" }} // Umożliwia kliknięcie
+          style={{ cursor: "pointer" }}
         >
           Crypto Coins
         </Navbar.Brand>
